@@ -1,0 +1,19 @@
+workflows:
+  nexvora-language-android:
+    name: NexVora Language Android
+    max_build_duration: 60
+
+    environment:
+      java: 21
+
+    scripts:
+      - name: Make Gradle executable
+        script: |
+          chmod +x ./gradlew
+
+      - name: Build APK
+        script: |
+          ./gradlew assembleDebug
+
+    artifacts:
+      - app/build/outputs/apk/debug/*.apk
