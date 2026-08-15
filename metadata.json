@@ -1,0 +1,6 @@
+{
+  "name": "NexVora Language",
+  "description": "Learn Languages. One Step at a Time. Master English, Spanish, Arabic, Hindi, French, Japanese and more with interactive exercises, speaking, listening, and spaced review.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
